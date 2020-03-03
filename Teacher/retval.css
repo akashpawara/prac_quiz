@@ -1,0 +1,75 @@
+body, html{
+
+
+background: #222222;
+
+}
+#page-wrap		    {  width: 500px; margin: 0 auto; }
+table {
+border-collapse: separate;
+border-spacing: 0;
+color: #4a4a4d;
+font: 14px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+caption{
+    margin: 10px 0; font: 40px Georgia, Serif;
+    color: #008B8B;
+}
+
+h3 {
+  text-align: left;
+  margin: 2px 0;
+	color:  #1ab188;
+
+}
+
+a{
+  color: #fff;
+}
+
+input[type=button] {
+    width: 20%;
+    background-color: #008B8B;
+    color: white;
+    padding: 10px 10px;
+    margin: 1px 0;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+
+th,
+td {
+padding: 10px 15px;
+vertical-align: middle;
+}
+thead {
+background: #395870;
+background: linear-gradient(#49708f, #293f50);
+color: #fff;
+font-size: 11px;
+text-transform: uppercase;
+}
+th:first-child {
+border-top-left-radius: 5px;
+text-align: left;
+}
+th:last-child {
+border-top-right-radius: 5px;
+}
+tbody tr:nth-child(even) {
+
+color: #fff;
+}
+tbody tr:nth-child(odd) {
+color: #fff;
+}
+td {
+border-bottom: 1px solid #cecfd5;
+border-right: 1px solid #cecfd5;
+width: 150px;
+}
+td:first-child {
+border-left: 1px solid #cecfd5;
+}
